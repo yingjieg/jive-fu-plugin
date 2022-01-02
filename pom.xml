@@ -91,8 +91,8 @@
                         </goals>
                         <configuration>
                             <tasks>
-                               <mkdir dir="${basedir}/target/${final.name}" />
-                               <unjar src="${basedir}/target/${final.name}.jar" dest="${basedir}/target/${final.name}" />
+                               <mkdir dir="${basedir}/target/${final.name}"/>
+                               <unjar src="${basedir}/target/${final.name}.jar" dest="${basedir}/target/${final.name}"/>
                             </tasks>
                         </configuration>
                     </execution>
@@ -191,7 +191,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aspects</artifactId>
-            <version>3.0.3.RELEASE</version>
+            <version>3.2.7.RELEASE</version>
             <scope>provided</scope>
         </dependency>
 
